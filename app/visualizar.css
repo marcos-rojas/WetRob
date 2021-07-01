@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* FONT FAMILY*/
+    --ff-primary  : 'Ubuntu', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    /*FONT WEIGHT*/
+    --fw-reg      : 300;
+    --fw-bold     : 900;
+    /* CUSTOM PROPERTY OF COLOR*/
+    --clr-light   : #fff;
+    --clr-dark    : #303030;
+    --clr-accent  : #16e0bd;
+    --clr-plant   : #747358;
+    --clr-support : rgb(192, 160, 199);
+
+    /* pallete collors*/
+    --red-crayola: rgb(37, 32, 33);
+    --carrot-orange: #f4972cff;
+    --xanthic: #f4ed2cff;
+    --medium-spring-green: #2cf4a1ff;
+    --electric-blue: rgb(33, 36, 17);
+    --azure: #2c7cf4ff;
+    --purple-x-11: #9d2cf4ff;
+
+    /* FONT SIZE*/
+    --fs-h1       : 3rem;
+    --fs-h2       : 2.25rem;
+    --fs-h3       : 1.25rem;
+    --fs-body     : 1rem;
+    /* BOX SHADOW*/
+    /*x offset yoffset blur*/
+    --bs          : 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+        0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+body {
+   /* background-color: var(--electric-blue);*/
+    font-family     : var(--ff-primary);
+}
+
+canvas {
+    position: relative;
+    height  : 100%;
+    width   : 100%; 
+}
+
+.pickerDate{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    display:flex;
+    justify-content: center;
+}
+.chart-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
